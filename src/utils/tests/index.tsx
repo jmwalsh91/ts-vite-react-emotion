@@ -6,7 +6,6 @@ import {
 } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { ReactElement } from 'react'
-import { ThemeProvider } from 'styled-components'
 import { afterEach } from 'vitest'
 
 afterEach(() => {
