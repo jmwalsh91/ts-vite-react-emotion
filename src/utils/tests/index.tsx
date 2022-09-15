@@ -9,8 +9,6 @@ import { ReactElement } from 'react'
 import { ThemeProvider } from 'styled-components'
 import { afterEach } from 'vitest'
 
-import { theme } from '~/styles'
-
 afterEach(() => {
   cleanup()
 })
@@ -20,9 +18,7 @@ const customRender = (
   options: RenderOptions = {}
 ): RenderResult =>
   render(ui, {
-    wrapper: ({ children }) => (
-      <ThemeProvider theme={theme}>{children}</ThemeProvider>
-    ),
+    wrapper: ({ children }) => <div>{children}</div>,
     ...options,
   })
 
