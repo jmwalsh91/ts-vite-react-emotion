@@ -1,22 +1,15 @@
 {
-  "name": "boilerplate-react-vite",
-  "description": "A React boilerplate powered by Vite builder",
+  "name": "speedrun",
+  "description": "speedrun",
   "version": "1.0.0",
-  "author": "Adeonir Kohl",
+  "author": "Jordan Walsh",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adeonir/boilerplate-react-vite.git"
+    "url": ""
   },
   "keywords": [
-    "boilerplate",
-    "react",
-    "vite",
-    "vitest",
-    "styled-components",
-    "react-router",
-    "storybook",
-    "typescript"
+
   ],
   "scripts": {
     "dev": "vite",
