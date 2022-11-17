@@ -4,7 +4,7 @@ import React from 'react'
 type Props = {}
 
 function Root({}: Props) {
-  return <div>hi</div>
+  return <div></div>
 }
 
 export default Root
