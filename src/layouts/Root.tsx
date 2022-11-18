@@ -3,7 +3,7 @@ import React from 'react'
 
 type Props = {}
 
-function Root({}: Props) {
+function Root() {
   return <div></div>
 }
 
