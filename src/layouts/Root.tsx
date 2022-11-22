@@ -6,7 +6,7 @@ type Props = {}
 function Root() {
   return (
     <div>
-      <p>hi</p>
+      <p></p>
     </div>
   )
 }
